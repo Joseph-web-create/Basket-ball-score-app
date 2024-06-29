@@ -22,18 +22,14 @@ body{
 
 #input-one{
     padding: 30px;
-    border: none;
-    border-radius: 9px;
-    background-color: #000000;
-    outline: none;
-    text-align: center;
+    color: red;
+    background: black;
+    font-size: 20px;
 }
 
 #input-two{
     padding: 30px;
-    border: none;
-    border-radius: 9px;
-    background-color: #000000;
-    outline: none;
-    text-align: center;
+    color: red;
+    background: black;
+    font-size: 20px;
 }
