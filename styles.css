@@ -8,35 +8,55 @@ body{
     text-align: center;
     background-color: #585c74;
     color: white;
-    font-family: "Press Start 2P", system-ui;
+    background: url(image/ball-7610545_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
 }
 
 .container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    height: 80vh;
     flex-wrap: wrap;
+    height: 80vh;
+    gap: 20px;
+    width: 100%;
 }
 
 #input-one{
     padding: 30px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
     color: red;
     background: black;
-    font-size: 20px;
+    font-size: 40px;
+    border-radius: 10px;
+    font-family: "Press Start 2P", system-ui;
 }
 
 #input-two{
-    padding: 30px;
-    color: red;
+    padding: 20px;
+    color: #ff0000;
     background: black;
     font-size: 20px;
+    border-radius: 10px;
+    font-family: "Press Start 2P", system-ui;
 }
 
 button{
-    padding: 30px;
+    padding: 16px;
     border: none;
-    border-radius: 20px;
+    border-radius: 9px;
     margin-top: 10px;
     cursor: pointer;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.container-div-0ne, .container-div-two{
+    background-color: #0c0e1879;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
 }
