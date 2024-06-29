@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #121736;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    flex-wrap: wrap;
+}
+
+#input-one{
+    padding: 30px;
+    border: none;
+    border-radius: 9px;
+    background-color: #000000;
+    outline: none;
+    text-align: center;
+}
+
+#input-two{
+    padding: 30px;
+    border: none;
+    border-radius: 9px;
+    background-color: #000000;
+    outline: none;
+    text-align: center;
+}
