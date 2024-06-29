@@ -2,19 +2,18 @@
 *::before,
 *::after{
     box-sizing: border-box;
-    margin: 0;
 }
 
 body{
     text-align: center;
-    background-color: #121736;
+    background-color: #585c74;
     color: white;
     font-family: "Press Start 2P", system-ui;
 }
 
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 80vh;
     flex-wrap: wrap;
@@ -32,4 +31,12 @@ body{
     color: red;
     background: black;
     font-size: 20px;
+}
+
+button{
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
 }
