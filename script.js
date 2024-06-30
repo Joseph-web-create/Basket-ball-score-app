@@ -1,4 +1,5 @@
 let count = 0;
+let count1 = 0;
 //home
 let idOne = document.getElementById("input-one");
 
@@ -27,25 +28,27 @@ function Clear() {
     idOne.textContent = count;
 }
 
+
+
 /*  Away function */
 
 function increment1() {
-    count++
-    idTwo.textContent = count;
+    count1++
+    idTwo.textContent = count1;
 }
 
 
 function plustwo1() {
-    count+= 2;
-    idTwo.textContent = count;
+    count1+= 2;
+    idTwo.textContent = count1;
 }
 
 function plusthree1() {
-    count+= 3;
-    idTwo.textContent = count;
+    count1+= 3;
+    idTwo.textContent = count1;
 }
 
 function Clear1() {
-    count = 0;
-    idTwo.textContent = count;
+    count1 = 0;
+    idTwo.textContent = count1;
 }
