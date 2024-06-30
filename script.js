@@ -29,7 +29,13 @@ function plusthree(){
 
 /*  Away function */
 
-function Increment1() {
+function increment1() {
     count++
+    idTwo.textContent = count;
+}
+
+
+function plustwo1() {
+    count+= 2;
     idTwo.textContent = count;
 }
