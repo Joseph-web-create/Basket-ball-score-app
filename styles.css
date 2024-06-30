@@ -32,9 +32,10 @@ body{
     margin: 0 auto;
     color: #ff0000;
     background: #00000089;
-    font-size: 40px;
+    font-size: 60px;
     border-radius: 10px;
-    font-family: "Press Start 2P", system-ui;
+    font-family: "Tiny5", sans-serif;
+
 }
 
 #input-two{
@@ -44,9 +45,10 @@ body{
     margin: 0 auto;
     color: #ff0000;
     background: #00000089;
-    font-size: 40px;
+    font-size: 60px;
     border-radius: 10px;
-    font-family: "Press Start 2P", system-ui;
+    font-family: "Tiny5", sans-serif;
+
 }
 
 button{
@@ -55,7 +57,9 @@ button{
     border-radius: 9px;
     margin-top: 10px;
     cursor: pointer;
-    font-family: "Press Start 2P", system-ui;
+    font-family: "Tiny5", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .container-div-0ne, .container-div-two{

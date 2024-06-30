@@ -1,5 +1,9 @@
 let count = 0;
+//home
 let idOne = document.getElementById("input-one");
+
+//away 
+let idTwo = document.getElementById("input-two");
 
 /* Home function*/
 
@@ -24,3 +28,8 @@ function plusthree(){
 }
 
 /*  Away function */
+
+function Increment1() {
+    count++
+    idTwo.textContent = count;
+}
