@@ -39,3 +39,8 @@ function plustwo1() {
     count+= 2;
     idTwo.textContent = count;
 }
+
+function plusthree1() {
+    count+= 3;
+    idTwo.textContent = count;
+}
