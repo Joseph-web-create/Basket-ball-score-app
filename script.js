@@ -17,13 +17,13 @@ function plustwo() {
     idOne.textContent = count;
 }
 
-function Clear() {
-    count= 0;
+function plusthree(){
+    count+= 3;
     idOne.textContent = count;
 }
 
-function plusthree(){
-    count+= 3;
+function Clear() {
+    count= 0;
     idOne.textContent = count;
 }
 
@@ -42,5 +42,10 @@ function plustwo1() {
 
 function plusthree1() {
     count+= 3;
+    idTwo.textContent = count;
+}
+
+function Clear1() {
+    count = 0;
     idTwo.textContent = count;
 }
